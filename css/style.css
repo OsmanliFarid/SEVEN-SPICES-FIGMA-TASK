@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+.container{
+    max-width: 85vw;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.links a{
+    margin-left: 40px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000;;
+}
+
+.header-navbar-text-box{
+    margin-top: 120px;
+}
+.header-navbar-title{
+    font-weight: bold;
+    font-size: 80px;
+}
+.navbar-title-clone{
+    color: #FF330F;
+    font-weight: 900;
+}
+.header-navbar-title-desc{
+    padding: 40px 0px;
+    width: 560px;
+    line-height: 40px;
+}
+.header-navbar-btn-getstarted{
+    display: inline-block;
+    background-color: #FF330F;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #fff;
+}
+.header-navbar-btn-View{
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: 1px solid #FF330F;
+    color: #000;
+    margin-left: 15px;
+}
+.header-navbar-boxs{
+    display: flex;
+}
+.header-navbar-img-background{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 478px;
+    height: 580px;
+}
+.navbar-background-img-footer{
+    position: absolute;
+    top: -20px;
+    
+    z-index: -1;
+    width: 100%;
+}
+.main-header-background{
+    background-color: #FEFEFE;
+    height: 1200px;
+}
+.main-header-title-box{
+    margin-top: 100px;
+    text-align: center;
+}
+.main-header-title{
+    color: #F0745E;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.main-header-title2{
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+}
